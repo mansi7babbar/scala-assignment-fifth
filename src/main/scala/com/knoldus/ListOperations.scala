@@ -1,7 +1,4 @@
-package com.knoldus
-
 class ListOperations {
-
   def findSecondMax(list: List[Int]): Int = {
     @scala.annotation.tailrec
     def findSecondMaxRecursive(list: List[Int], max: Int): Int = {
@@ -106,7 +103,6 @@ class ListOperations {
 
     removeNthElementRecursive(list, List[Int]())
   }
-
 }
 
 object ListOperations extends App {
