@@ -51,7 +51,7 @@ def getReverse(list: List[Int]): List[Int] = {
   }
 
   getReverseRecursive(list, List[Int]())
-}/
+}
 getReverse(List(1, 2, 3, 4))
 
 @scala.annotation.tailrec
@@ -113,4 +113,5 @@ def removeNthElement(list: List[Int], nthElement: Int): List[Int] = {
 }
 val nthElement = 3
 removeNthElement(List(1, 2, 3, 4, 3), nthElement)
+
 
