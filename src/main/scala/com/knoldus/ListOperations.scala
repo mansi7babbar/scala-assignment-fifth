@@ -1,3 +1,5 @@
+package com.knoldus
+
 class ListOperations {
 
   def findSecondMax(list: List[Int]): Int = {
@@ -111,28 +113,28 @@ object ListOperations extends App {
   val listOps = new ListOperations()
 
   val list1 = List(1, 2, 3, 4, 5)
-  listOps.findSecondMax(list1)
+  println(listOps.findSecondMax(list1))
 
   val list2 = List(1, 2, 3, 4, 5)
   val kthElementIndex = 2
-  listOps.findKthElement(list2, kthElementIndex)
+  println(listOps.findKthElement(list2, kthElementIndex))
 
   val list3 = List(1, 2, 3, 4, 5)
-  listOps.isPalindrome(list3)
+  println(listOps.isPalindrome(list3))
 
   val list4 = List(1, 2, 3, 4, 5)
-  listOps.getReverse(list4)
+  for(element <- listOps.getReverse(list4)) print(element+" "); println()
 
   val list5 = List(1, 2, 3, 4, 5)
-  listOps.firstEvenNumber(list5)
+  println(listOps.firstEvenNumber(list5))
 
   val list6 = List(1, 1, 1, 2, 3, 3, 4, 5, 5, 3, 3)
-  listOps.removeDuplicates(list6)
+  for(element <- listOps.removeDuplicates(list6)) print(element+" "); println()
 
   val list7 = List(1, 2, 3, 4, 5)
-  listOps.addDuplicates(list7)
+  for(element <- listOps.addDuplicates(list7)) print(element+" "); println()
 
   val list8 = List(1, 2, 3, 4, 5, 3)
   val nthElement = 3
-  listOps.removeNthElement(list8, nthElement)
+  for(element <- listOps.removeNthElement(list8, nthElement)) print(element+" "); println()
 }
