@@ -1,14 +1,16 @@
 #Scala-Assignment
 
-Q: FInd second max from a list
+Q: FInd second max from a List.
+Example:
    Input: List(1,2,3,4)
    Output: 3
 
-Q. Kth element from the list
+Q. Kth element from the List.
+Example:
   Input : kth(List(1,2,3,4,5),3)
   Output: 4
 
-Q. Find out whether a list is a palindrome.
+Q. Find out whether a List is a palindrome.
 Example:
   Input: isPalindrome(List(1, 2, 3, 2, 1))
   Output: true
