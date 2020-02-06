@@ -1,27 +1,16 @@
 #Scala-Assignment
 
-<<<<<<< HEAD
 Q: FInd second max from a List. Example: Input: List(1,2,3,4) Output: 3
 
 Q. Kth element from the List. Example: Input : kth(List(1,2,3,4,5),3) Output: 4
 
 Q. Find out whether a List is a palindrome. Example: Input: isPalindrome(List(1, 2, 3, 2, 1)) Output: true
-=======
-Q: FInd second max from a List.
-Example:
-   Input: List(1,2,3,4)
-   Output: 3
 
-Q. Kth element from the List.
-Example:
-  Input : kth(List(1,2,3,4,5),3)
-  Output: 4
+Q: FInd second max from a List. Example: Input: List(1,2,3,4) Output: 3
 
-Q. Find out whether a List is a palindrome.
-Example:
-  Input: isPalindrome(List(1, 2, 3, 2, 1))
-  Output: true
->>>>>>> d82fec1ce1b6cf0d58b90f4f1ec9dcd37988ff60
+Q. Kth element from the List. Example: Input : kth(List(1,2,3,4,5),3) Output: 4
+
+Q. Find out whether a List is a palindrome. Example: Input: isPalindrome(List(1, 2, 3, 2, 1)) Output: true
 
 Q. Get reverse of a List.
 
